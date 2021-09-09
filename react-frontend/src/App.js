@@ -15,7 +15,7 @@ function App() {
 
 
     
-        {/* <Router>
+       <Router>
               <HeaderComponent />
                 <div className="container">
                     <Switch> 
@@ -27,7 +27,7 @@ function App() {
                     </Switch>
                 </div>
               <FooterComponent />
-        </Router> */}
+        </Router> 
     </div>
     
   );
