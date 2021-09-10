@@ -15,7 +15,7 @@ function App() {
 
 
     
-      m <Router>
+       <Router>
               <HeaderComponent />
                 <div className="container">
                     <Switch> 
