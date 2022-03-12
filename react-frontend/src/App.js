@@ -1,32 +1,41 @@
 import React from 'react';
-
 import './App.css';
-// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-// import ListEmployeeComponent from './components/ListEmployeeComponent';
-// import HeaderComponent from './components/HeaderComponent';
-// import FooterComponent from './components/FooterComponent';
-// import CreateEmployeeComponent from './components/CreateEmployeeComponent';
-// import UpdateEmployeeComponent from './components/UpdateEmployeeComponent';
-// import ViewEmployeeComponent from './components/ViewEmployeeComponent';
+import Header from './components/Header.js';
+import Login from './components/Login.js';
+import Home from './components/Home.js';
+import {
+ 
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
-  return (
-    <div>
 
-       <Router>
-              <HeaderComponent />
-                <div className="container">
-                    <Switch> 
-                          <Route path = "/" exact component = {ListEmployeeComponent}></Route>
-                          <Route path = "/employees" component = {ListEmployeeComponent}></Route>
-                          <Route path = "/add-employee/:id" component = {CreateEmployeeComponent}></Route>
-                          <Route path = "/view-employee/:id" component = {ViewEmployeeComponent}></Route>
-                          { <Route path = "/update-employee/:id" component = {UpdateEmployeeComponent}></Route> }
-                    </Switch>
-                </div>
-              <FooterComponent />
-        </Router> 
-    </div>
+
+
+   return (
+   
+     <div className="App">
+     <div>
+
+             <Header />
+        </div>
+
+<Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/login">
+          <Login/>
+          </Route>
+         
+        </Switch>
+        
+    
+    
+</div>
+ 
+
     
   );
 }

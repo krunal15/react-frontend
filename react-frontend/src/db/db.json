@@ -1,0 +1,40 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "krunal",
+      "email": "krunal@gmail.com",
+      "phone": "7336476346",
+      "country": "india"
+    },
+    {
+      "id": 2,
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "phone": "7336346",
+      "country": "india"
+    },
+    {
+      "id": 3,
+      "name": "kinjal",
+      "email": "krl@gmail.com",
+      "phone": "73364763",
+      "country": "canada"
+    },
+    {
+      "id": 4,
+      "name": "rohan",
+      "email": "rohan@gmail.com",
+      "phone": "7336476346",
+      "country": "india"
+    },
+    
+    {
+      "name": "rohit",
+      "email": "rohit@gmail.com",
+      "phone": "7336476346",
+      "country": "ue",
+      "id": 6
+    }
+  ]
+}
